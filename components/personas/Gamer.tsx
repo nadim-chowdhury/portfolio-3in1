@@ -49,11 +49,16 @@ export default function Gamer() {
           </div>
         </div>
 
-        <button className="relative group px-12 py-4 bg-accent text-white font-bold text-xl skew-x-[-10deg] hover:scale-105 transition-transform overflow-hidden">
+        <a
+          href="https://www.twitch.tv/gxlieo"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="relative group px-12 py-4 bg-accent text-white font-bold text-xl skew-x-[-10deg] hover:scale-105 transition-transform overflow-hidden inline-block"
+        >
           <span className="block skew-x-[10deg] relative z-10">JOIN LOBBY</span>
           <div className="absolute inset-0 border-2 border-white translate-x-1 translate-y-1 group-hover:translate-x-2 group-hover:translate-y-2 transition-transform" />
           <div className="absolute inset-0 bg-white/20 translate-y-full group-hover:translate-y-0 transition-transform duration-300" />
-        </button>
+        </a>
       </div>
     </div>
   );

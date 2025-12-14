@@ -69,9 +69,14 @@ export default function Photographer() {
           Capturing the chaos and beauty of Bangladesh.
         </motion.p>
 
-        <button className="px-8 py-3 border border-black text-black hover:bg-black hover:text-white transition-all duration-500 uppercase tracking-widest text-xs">
+        <a
+          href="https://www.instagram.com/nadim_ch0wdhury"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-block px-8 py-3 border border-black text-black hover:bg-black hover:text-white transition-all duration-500 uppercase tracking-widest text-xs"
+        >
           Enter Gallery
-        </button>
+        </a>
       </div>
     </div>
   );

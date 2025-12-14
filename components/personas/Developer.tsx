@@ -122,13 +122,16 @@ export default function Developer() {
           </motion.div>
         </div>
 
-        <div className="group cursor-pointer inline-flex items-center gap-2 text-accent border border-accent/20 px-6 py-3 hover:bg-accent/10 transition-colors relative overflow-hidden">
+        <a
+          href="mailto:nadim-chowdhury@outlook.com"
+          className="group cursor-pointer inline-flex items-center gap-2 text-accent border border-accent/20 px-6 py-3 hover:bg-accent/10 transition-colors relative overflow-hidden"
+        >
           <div className="absolute inset-0 bg-accent/10 translate-y-full group-hover:translate-y-0 transition-transform duration-300" />
           <span className="relative z-10">INITIALIZE_HANDSHAKE</span>
           <span className="group-hover:translate-x-1 transition-transform relative z-10">
             &gt;
           </span>
-        </div>
+        </a>
       </div>
     </div>
   );
